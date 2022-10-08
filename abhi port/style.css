@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Rubik', sans-serif;
+   ;
+}
+.navbar-text {
+    color:black;
+    font-size: 2.5rem;
+  }
+.navbar-text:hover {
+    color: white;
+  }
+h2 {
+    color: aqua;
+    font-size: 2REM; 
+}
+
+h2::after{
+    content: ' ';
+    background:orange;
+    display: block;   
+    height: 3px;
+    width: 150px;
+}
+
+.section-title{
+    color: black;
+}
+.img-fluid{
+    filter: drop-shadow(5px 13px  15px black);
+    border-radius: 15%;   
+}
+
+.row{
+    color: black;
+}
+.btn btn-outline-danger{
+    background-color: red;
+}
+
+.prj{
+    color:rgb(16, 227, 227) ;
+    font-size: 6rem;
+    text-align: center;
+    
+    text-decoration: underline;
+    text-shadow: 5px 5px 5px rgb(213, 138, 150),
+    6px 5px 5px red;
+    background-color: black;
+}
+
+.know1:hover{
+    border-top: 3px solid yellow;
+    border-bottom: 3px solid yellow;
+    background-color: crimson;
+
+}
+.card-img-top{
+    transition:transform .4s;
+    border-radius: 15px;
+    
+}
+.card-img-top:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.badge{
+    width: 50%;
+}
+.card-body{
+    background-color: bisque;
+}
+.card-title{
+    background-color: aquamarine;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    text-align: center;
+    color: red;
+}
+.skill{
+    font-size: 3rem;
+    color: white;
+    background-color: blueviolet;
+}
